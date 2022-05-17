@@ -1,0 +1,436 @@
+@font-face {
+    font-family: 'THSarabun';
+    src: url('../font/THSarabun.ttf') format('truetype');
+}
+
+body {
+	font-family: 'THSarabun' !important;
+	font-weight: bold !important;
+}
+
+.nav-bg {
+	background-image: linear-gradient(to top, #00CCFF 0%, #00FFFF 100%) !important;
+}
+.sidebar-bg { 
+	background-image: linear-gradient(to top, #00CCFF 0%, #00FFFF 100%) !important;
+	font-family: 'THSarabun' !important;
+	font-weight: bold !important;
+	font-size: 24px !important;
+}
+.brand-link {
+	color: #000000 !important;
+	font-size: 24px !important;
+}
+.nav-link, .active {
+	color: #000 !important;
+}
+.nav-link:hover {
+	border-radius: 15px !important;
+	box-shadow: 3px 3px 3px #0066FF !important;
+}
+.active {
+	background-image: linear-gradient(to top, #0066FF 0%, #0066FF 100%) !important;
+	border-radius: 15px !important;
+}
+
+#id:focus {
+	background-color: #fff;
+}
+.breadcrumb {
+	font-size: 35px !important;
+	font-weight: bold !important;
+}
+.breadcrumb-padding {
+	padding-top: 8px;
+}
+
+.content-wrapper {
+	font-family: 'THSarabun';
+	font-size: 22px;
+	padding-top: 60px;
+}
+
+.form-control {
+  position: relative !important;
+  height: auto !important;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  padding: 10px !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+.form-control:focus {
+  z-index: 2 !important;
+}
+.txtInput {
+	height: 30px !important; 
+	box-shadow: 1px 1px 1px #000 !important;
+}
+.inputSearch {
+	height: 30px !important; 
+	font-family: 'THSarabun';
+	font-size: 22px !important;
+}
+
+input[type=checkbox] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+input[type="radio"] {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+    transform: scale(2);
+    padding: 10px;
+}
+
+h1 {
+	font-size: 35px !important;
+	font-weight: bold !important;
+}
+
+h2 {
+	font-size: 23px !important;
+}
+
+#card-header {
+	background-image: linear-gradient(to top, #0066FF 0%, #0066FF 100%);
+	color: #fff !important;
+}
+
+.card-title {
+	font-size: 24px !important;
+	font-weight: bold !important;
+}
+
+font {
+	font-weight: 600;
+}
+
+.line-padding {
+	padding-top: 10px;
+}
+.linePadding {
+  padding-bottom: 5px;
+}
+
+.visit-padding {
+	padding-top: 20px;
+}
+
+.txtNormal {
+	font-size: 20px;
+}
+
+.txtSmall {
+	font-size: 18px;
+}
+
+#visit_list {
+	font-size: 20px !important;
+	font-weight: bold !important;
+}
+
+.visit_list {
+	box-shadow: 1px 1px 1px #000;
+	width: 100%;
+	background: #fff;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.visit_list:hover {
+	cursor: pointer;
+	background-image: linear-gradient(to top, #ffe6e6 0%, #ffffff 100%);
+}
+.visit_active {
+	background-image: linear-gradient(to top, #ffe6e6 0%, #ffffff 100%);
+	box-shadow: 3px 3px 3px #f250ed;
+}
+
+#info-title {
+	border-radius: 15px !important;
+	height: 40px !important;
+}
+
+.info {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#info_p, #info_h, #info_f, #info_b {
+	border-radius: 10px;
+	height: 40px;
+}
+
+.biochem-header, .physical-header, .urinalysis-header {
+	text-align: center;
+	font-weight: bold;
+}
+
+.biochem-line, .physical-line, .urinalysis-line {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.top-line {
+	border-top: 1px solid #000;
+}
+.bottom-line {
+	border-bottom: 1px solid #000;
+}
+.left-line {
+	border-left: 1px solid #000;
+}
+.right-line {
+	border-right: 1px solid #000;
+}
+
+.surgery-header, .disease-header, .allergy-header, 
+.smoking-header, .drinking-header {
+	background-image: linear-gradient(to top, #ab4ae8 0%, #d694ff 100%);
+	color: #fff;
+}
+
+.btnSurgey, .btnDisease, .btnAllergy, 
+.btnSmoking, .btnDrinking {
+	font-size: 16px;
+	color: #3261b8;
+	text-shadow: 1px 1px 1px #6d9aed;
+}
+.btnSurgey:hover, .btnDisease:hover, .btnAllergy:hover, 
+.btnSmoking:hover, .btnDrinking:hover {
+	color: #4272c9;
+	text-shadow: 2px 2px 2px #6d9aed;
+	cursor: pointer;
+}
+
+.surgery-line, .disease-line, .allergy-line, 
+.smoking-line, .drinking-line {
+	background-image: linear-gradient(to top, #faf2ff 0%, #e6bdff 100%);
+}
+
+#detail_list {
+	font-size: 24px;
+}
+
+#btnSave, #btnClose {
+	border-radius: 15px;
+	font-family: 'THSarabun';
+	font-weight: bold;
+	width: 60px;
+}
+
+#btnAdd {
+	border-radius: 15px;
+	font-family: 'THSarabun';
+	font-weight: bold;
+}
+
+#btnAdd2, #btnDel2 {
+	border-radius: 15px;
+	font-family: 'THSarabun';
+	font-weight: bold;
+	width: 40px;
+}
+
+#btnPass, #btnEdit {
+	border-radius: 10px;
+}
+
+#memListTable>thead>tr>th {
+	background-image: linear-gradient(to top, #0066FF 0%, #0066FF 100%);
+	color: #fff;
+}
+
+.memListTable {
+	background-image: linear-gradient(to top, #faf2ff 0%, #e6bdff 100%);
+}
+
+#tblManage>thead>tr>th, 
+#tblManage>tbody>tr>td {
+	padding: 5px;
+}
+#tblManage>thead>tr>th {
+	background-image: linear-gradient(180deg, #e39191 0%, #ffc4c4 100%);
+}
+.fa-toggle-on {
+	color: #298c08;
+	text-shadow: 2px 2px 2px #53c42d;
+}
+.fa-toggle-off {
+	color: #999999;
+	text-shadow: 2px 2px 2px #adadad;
+}
+.btnSearch {
+	position: absolute;
+  	right: 12px;
+  	top: 5px;
+}
+.btnSearch:hover {
+	text-shadow: 1px 1px 1px #2e2e2e;
+	cursor: pointer;
+}
+
+.register, .forgot {
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: left; 
+}
+#form_list {
+  text-align: left !important;
+  font-size: 22px;
+}
+.level {
+  font-weight: bold;
+}
+.txtAlert {
+	padding-top: 5px;
+	color: #ad0000;
+	font-weight: bold;
+	font-size: 22px;
+	text-shadow: 1px 1px #870000;
+}
+.txtWarnig {
+  padding-top: 5px;
+}
+.btnPass, .btnCF {
+	position: absolute;
+  	right: 20px;
+  	top: 3px;
+  	opacity: 0.6;
+}
+.btnPass:hover, .btnCF:hover {
+	cursor: pointer;
+}
+#forgetAlert {
+  margin-bottom: 35px;
+}
+.imgLoading {
+  width: 30px;
+}
+.imgWaiting {
+  width: 25px;
+}
+.smLoading {
+  padding-top: 5px;
+  width: 20px;
+}
+
+.modal-dialog {
+	font-family: 'THSarabun';
+	font-weight: bold;
+}
+
+.modal-center {
+  margin: auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+    margin: auto;
+  	padding: 0;
+  	justify-content: center;
+  	align-items: center;
+  	height: 90vh;
+ 	display: flex;
+}
+.modal-full .modal-content {
+    height: 100vh;
+}
+
+.modal-scrollbar-measure {
+  overflow: hidden !important; 
+}
+
+.completed {
+  background-image: linear-gradient(to top, #95e87b 0%, #46c41f 100%); 
+  box-shadow: 2px 2px 3px #c5ffb3;
+  text-shadow: 2px 2px 3px #27a300;
+  color: #124a00;
+}
+
+.failed {
+  background-image: linear-gradient(to top, #ffb5b5 0%, #f75e5e 100%); 
+  box-shadow: 2px 2px 3px #ffb3b3;
+  text-shadow: 2px 2px 3px #eb2f2f;
+  color: #8a0000;
+}
+
+.paddingIcon {
+  padding-top: 3px;
+}
+
+.paddingAlert {
+  padding-top: 10px;
+  font-weight: bold !important;
+}
+
+.imgLoading {
+  width: 25px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(to top, #0066FF 0%, #0066FF 100%);
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%); 
+}
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(to top, #ffffff 0%, #00CCFF 100%); 
+}
+
+.pagination {
+  font-size: 18px !important;
+}
+.page-item {
+  padding-left: 3px;
+  padding-right: 3px;  
+}
+.page-link, .page-link:hover {
+  cursor: pointer;
+  text-decoration: none !important;	
+  font-weight: bold;
+  color: #000000 !important; 
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px blue;
+}
+.active-link {
+  background-image: linear-gradient(180deg, #ffcccc 0%, #ffdede 100%);
+  text-decoration: none;
+}
+.page-input {
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bg-copyright {
+  background-image: linear-gradient(to top, #e7deff 0%, #ffdefe 100%);
+}
+.copyright {
+  text-align: center;	
+  font-weight: bold !important;
+  font-family: 'THSarabun';
+  font-size: 24px;
+}input[type="text"]:disabled {
+	background: #fff;
+	color: #000;
+	font-weight: 900;
+
+
+  }
+
